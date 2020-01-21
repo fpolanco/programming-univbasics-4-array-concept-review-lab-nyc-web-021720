@@ -21,7 +21,7 @@ end
 
 def find_max_value(array)
   x = 0
-  array.max_by(array[0]) { array > x }
+  array.max_by(array[0]) { return array > x }
 end
 
 def find_min_value(array)
