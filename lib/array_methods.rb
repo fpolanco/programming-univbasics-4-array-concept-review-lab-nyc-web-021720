@@ -20,8 +20,8 @@ def find_element_index(array,value_to_find)
 end
 
 def find_max_value(array)
-  x = 0
-  array.max_by(array[0]) { [0]  }
+  array.max_by do | element |
+  element.array
 end
 
 def find_min_value(array)
